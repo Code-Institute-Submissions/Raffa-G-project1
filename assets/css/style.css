@@ -1,4 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Oswald&family=Quicksand:wght@300&family=Reenie+Beanie&display=swap');
+
 body {
-    font-family: Arial;
-    background-color: green;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    background-color: rgb(155, 189, 194);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: grey;
+}
+
+h3 {
+    font-family: Aboreto, Arial;
+    color: brown;
+}
+
+h4 {
+    font-family: Oswald, sans-serif;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-family: Aboreto, Arial;
+    letter-spacing: 1px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#footer {
+    font-size: 80%;
 }
