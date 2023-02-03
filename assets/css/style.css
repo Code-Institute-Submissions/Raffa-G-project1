@@ -245,7 +245,53 @@ hr {
 
 }
 
+/*read-more-about page*/
+
+.section-color-long{
+    background-image: linear-gradient(to right, #12575a, #317169, #538c76, #79a682, #a3c08e,
+    #a6be88, #aabc81, #aeba7b, #889e5f, #638345, #3e682e, #154e18);
+   height: fit-content;
+}
+
+.big-rec-left {
+    border-style: outset;
+    border-width: 1px;
+    width: 42%;
+    padding: 15px;    
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: white;    
+}
+
+.big-rec-center {
+    border-style: outset;
+    border-width: 1px;
+    width: 50%;
+    padding: 15px;    
+    margin: 0 auto;
+    background-color: white;        
+}
+
+.big-rec-right {
+    border-style: outset;
+    border-width: 1px;
+    width: 42%;
+    height: auto;
+    padding: 15px;    
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: white;    
+}
+
 /* Footer */
+
+.header-footer-section {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
 
 #footer {
     background-color: white;
