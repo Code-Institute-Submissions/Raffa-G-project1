@@ -2,7 +2,7 @@
 
 body {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
-    background-color: rgb(155, 189, 194);
+    background-color:
 }
 
 * {
@@ -71,44 +71,95 @@ h4 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url(/workspace/project1/assets/images/hero-image.jpg) no-repeat center center;
+    background: url("../assets/images/hero-image.jpg") no-repeat center center;
 }
 
 /* Get informed section */
 
-#get-informed-about {
+.section {
     height: 500px;
+}
+
+.image-container {
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    border-style: solid;
+}
+
+.image-rec-cover {
+    background-image: url("../assets/images/why.jpg") no-repete center center;
+    height: 100%;
 }
 
 .div-title {
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 50px;
 }
 
-#why-about {
-    background-color: blue;
+.rectangle-info-left {
+    border-style: outset;
+    border-width: 1px;
     width: 25%;
     float: left;
-    padding: 30px;
+    padding: 15px;
     margin-left: 3%;
 
 }
 
-#what-about {
-    background-color: green;
+.rec-text-center {
+    text-align: center;
+}
+
+.rectangle-info-right {
+    border-style: outset;
+    border-width: 1px;
     width: 25%;
     float: right;
-    padding: 30px;
+    padding: 15px;
     margin-right: 3%;
 
 }
-#how-about {
-    background-color: yellow;
+.rectangle-info-center {
+    border-style: outset;
+    border-width: 1px;
     width: 25%;
-    padding: 30px;    
+    padding: 15px;    
     margin: 0 auto;
 
 }
+
+hr {
+    size: 2px;
+}
+
+.rectangle-info-left li {
+    list-style-type: none;
+}
+.rectangle-info-right li {
+    list-style-type: none;
+}
+.rectangle-info-center li {
+    list-style-type: none;
+}
+
+.read-more {
+    text-align: right;
+    list-style-type: none;
+    color: #3a3a3a;
+    
+}
+
+.read-more a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.read-more a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 /* Footer */
 
