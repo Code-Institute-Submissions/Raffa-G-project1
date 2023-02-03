@@ -221,17 +221,28 @@ hr {
     margin-top: 100px;
 }
 
-#button {
-    background-color: gray;
-    border: solid 1px gray;
-    color:;
-    padding: 0px 92px;
+#button {   
+    border-style: outset;
+    padding: 0px 95px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
+    margin-top: 0px;
     margin-bottom: 50px;
+}
+
+#name-field {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    margin: 15px;
+
+}
+
+#email-field {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    margin: 15px;
+
 }
 
 /* Footer */
