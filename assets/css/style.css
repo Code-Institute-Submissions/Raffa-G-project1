@@ -6,7 +6,7 @@ html {
 
 body {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
-    
+     
 }
 
 * {
@@ -26,19 +26,26 @@ h1, h2 {
 
 h3, h4, h5 {
     color: gray;
+    letter-spacing: 1px;
 }
 
 #logo {
     float: left;
     font-size: 250%;
     padding-left: 30px;
+    line-height: 100px;
 }
 
 /* navigation links */
 
+#navbar {
+    height: 100px;
+}
+
 #menu {
     font-family: Aboreto, Arial;
-    letter-spacing: 1px;
+    color: #3a3a3a;
+    letter-spacing: 2px;
     line-height: 100px;
 }
 
@@ -48,8 +55,10 @@ h3, h4, h5 {
 
 #menu li {
     float: right;
-    list-style-type: none;
-    margin-right: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+    margin-right:;
+    list-style: none;
 }
 
 #menu a {
@@ -62,7 +71,7 @@ h3, h4, h5 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    text-decoration: underline;
 }
 
 /* Hero image section */
@@ -70,13 +79,29 @@ h3, h4, h5 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url("../assets/images/hero-image.jpg") no-repeat center center;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 190%;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+#cover-text {
+    margin: 0 auto;
+    background-color:;
+    position: absolute;
+    padding: 20px;
+    margin-block: -320px;
+    margin-left: 170px;
 }
 
 /* Get informed section */
 
 .section {
-    height: 600px;
+    height: 650px;
 }
 
 .section-color {
@@ -87,18 +112,6 @@ h3, h4, h5 {
 
 .info-text {
     padding-top: 20px;
-}
-
-.image-container {
-    width: 300px;
-    height: 500px;
-    padding: 30px;
-    border-style: solid;
-}
-
-.image-rec-cover {
-    background-image: url("../assets/images/why.jpg") no-repete center center;
-    height: 100%;
 }
 
 .div-title {
@@ -114,7 +127,6 @@ h3, h4, h5 {
     float: left;
     padding: 15px;
     margin-left: 3%;
-
 }
 
 .rectangle-info-right {
@@ -124,19 +136,19 @@ h3, h4, h5 {
     float: right;
     padding: 15px;
     margin-right: 3%;
-
 }
+
 .rectangle-info-center {
     border-style: outset;
     border-width: 1px;
     width: 25%;
     padding: 15px;    
     margin: 0 auto;
-
 }
 
 hr {
     size: 2px;
+    color: #3a3a3a;
 }
 
 .rectangle-info-left li {
@@ -174,7 +186,7 @@ hr {
     float: left;
     padding: 0;
     margin-left: 3%;
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 
@@ -190,7 +202,7 @@ hr {
     float: right;
     padding: 15px;
     margin-right: 3%;
-    margin-top: 100px;
+    margin-top: 50px;
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -218,7 +230,7 @@ hr {
     float: right;
     padding: 15px;
     margin-right: 3%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #button {   

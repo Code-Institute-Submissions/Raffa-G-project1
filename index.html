@@ -15,34 +15,41 @@
             <h1 id="logo">VEGAN LIFE</h1>
         </a>
         <!-- Invert nav bar order! -->
-        <nav>
-            <ul id="menu">
-                <h4>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="read-more-about.html">About</a>
-                </li>
-                <li>
-                    <a href="get-informed.html">Get informed</a>
-                </li>
-                <li>
-                    <a href="recipes.html">Recipes</a>
-                </li>
-                <li>
-                    <a href="#">Subscribe</a>
-                </li>
-            </h4>
-            </ul>
-        </nav>
+        <section id="navbar">
+            <nav>
+                <ul id="menu">
+                    <h4>
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="read-more-about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="get-informed.html">Get informed</a>
+                    </li>
+                    <li>
+                        <a href="recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="#subscribe">Subscribe</a>
+                    </li>
+                </h4>
+                </ul>
+            </nav>
+    </section>
     </header>
 
-    <section>
+    <section id="hero-image">
         <div>
-            <img src="../assets/images/hero-image.jpg" alt="aerial view of a clear ocean horizontaly meeting the beach sand that then turns into a dense vegetation" style="width:100%;height:500px;">        
+            <img src="../assets/images/hero-image.jpg" alt="aerial view of a clear ocean horizontaly meeting
+             the beach sand that then turns into a dense vegetation" style="width:100%;height:500px;">        
+        </div>
+        <div id="cover-text">
+            <h2>Much more then eating salads</h2>
         </div>
     </section>
+    <br>
     <br>
     <section class="section">
         <div class="div-title">
@@ -50,7 +57,8 @@
         </div>
         
         <div class="rectangle-info-left">
-            <a href="#"><img src="/assets/images/why.jpg" alt="children and adults caretakers on a beach hi-fiving each other"  width="100%"></a>
+            <a href="#"><img src="/assets/images/why.jpg" alt="children and adults caretakers on a beach 
+                hi-fiving each other"  width="100%"></a>
             <div class="info-text">
             <h2 class="rec-text-center">WHY</h2>
             <h4 class="rec-text-center">would I go vegan</h4>
@@ -68,7 +76,8 @@
         </div>
 
         <div class="rectangle-info-right">
-            <a href="#"><img src="/assets/images/what.jpg" alt="top view of people at a table having a meal" width="100%"></a>
+            <a href="#"><img src="/assets/images/what.jpg" alt="top view of people at a table having 
+                a meal" width="100%"></a>
             <div class="info-text">
             <h2 class="rec-text-center">WHAT</h2>
             <h4 class="rec-text-center">would I eat as vegan</h4>
@@ -124,11 +133,11 @@
                     - as well as avoiding animal-derived materials, products tested on animals 
                     and places that use animals for entertainment.</p>
                     <br>
-                    <p><em>"Veganism is a philosophy and way of living which seeks to exclude —as far as is possible 
+                    <p><em><b>"Veganism is a philosophy and way of living which seeks to exclude —as far as is possible 
                         and practicable— all forms of exploitation of, and cruelty to, animals for food, clothing 
                         or any other purpose; and by extension, promotes the development and use of animal-free 
                         alternatives for the benefit of animals, humans and the environment. In dietary terms it 
-                        denotes the practice of dispensing with all products derived wholly or partly from animals."</em>
+                        denotes the practice of dispensing with all products derived wholly or partly from animals."</b></em>
                     </p>
                     <br>
                     <p>Some people will choose to go vegan because they do not agree with farmed animal practices 
@@ -139,7 +148,7 @@
                         all the above.
                     </p>
                     <br>
-                <h5 class="read-more"> <a href="#">Read more...</a> </h5>
+                <h5 class="read-more"> <a href="#">Full page</a> </h5>
                 <!-- ABOUT content continues in other page -->
             </div>
         </div>    
@@ -156,29 +165,21 @@
                 <h4 class="rec-text-center">Delicious for</h4>
                 <h2 class="rec-text-center">BREAKFAST</h2>
                 <a href="#"><img src="/assets/images/breakfast.jpg" alt="children and adults caretakers on a beach hi-fiving each other"  width="100%"></a>
-                <div class="info-text">
-                <br>
                 <!-- BREAKFAST content continues in other page -->
-            </div>
             </div>
     
             <div class="rectangle-info-right">
                 <h4 class="rec-text-center">Delicious as</h4>
                 <h2 class="rec-text-center">DESSERT & SNACK</h2>
                 <a href="#"><img src="/assets/images/desserts.jpg" alt="top view of people at a table having a meal" width="100%"></a>
-                <div class="info-text">
-                <br>
                 <!-- WHAT content continues in other page -->
             </div>
-            </div>
+
             <div class="rectangle-info-center">
                 <h4 class="rec-text-center">Delicious for</h4>
                 <h2 class="rec-text-center">LUNCH & DINNER</h2>
                 <a href="#"><img src="/assets/images/lunch-dinner.jpg" alt="Tow young woman giggleing while grocery shopping" width="100%"></a>
-                <div class="info-text">
-                <br>
                 <!-- LUNCH & DINNER content continues in other page -->
-            </div>
             </div>
     </section>
     <br>
@@ -194,10 +195,10 @@
 
         <div id="big-rectangle-sub">
             <div class="div-title">
-                <h1 class="rec-text-center">SUBSCRIBE</h1>
+                <h1 class="rec-text-center" id="subscribe">SUBSCRIBE</h1>
                 <h5 class="rec-text-center">and get a <em>How to go Vegan</em> free e-book</h5>
             </div>
-            <div>
+        <div>
         <form action="#" method="post">
             <div>
                 <label for="name-field">Name</label>
@@ -208,17 +209,16 @@
                 <input type="email" name="email" id="email-field" placeholder="Your email" required>
             </div>
             <br>
+            <!-- change 'Get it' font -->
             <div id="button">
                 <input type="submit" value="Get it">
             </div>
             </div>
         </div>
-
         </form>
     </section>
 
     <footer>
-
         <!-- Invert footer nav bar order! -->
         <nav id="menu"> 
             <ul id="footer">
@@ -236,7 +236,7 @@
                     <a href="recipes.html">Recipes</a>
                 </li>
                 <li>
-                    <a href="#">Subscribe</a>
+                    <a href="#subscribe">Subscribe</a>
                 </li>
             </h4>
             </ul>
