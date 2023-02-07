@@ -1,108 +1,155 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Vegan life 
 
-Welcome Raffaela,
+The Vegan Life website is a space intended to make simple and accecible the basic principles and information about veganism.
+For people that are curious about it and not intirely sure of what it is about, it addresses the first more commun questions and obstacles around the topic.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will have answered the questions of:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- Why one would become vegan,
+- How one would embrace the lifestyle,
+- What one would eat as vegan,
 
-## Gitpod Reminders
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- [Features](#features)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-`python3 -m http.server`
+<!-- enter screenshot from http://ami.responsivedesign.is/ -->
+<hr>
 
-A blue button should appear to click: _Make Public_,
+## Features
+ 
+- ### Navigation:
 
-Another blue button should appear to click: _Open Browser_.
+    - Featured at the top of the page, it shows the website name/Logo in the top left corner (Vegan Life) which links to the top of the home page (index.html).
+    - It appears in all the available pages of the website with the same positioning, configuration and functions, enabeling the user to never 'get lost'.
+    - It has five more navigation links are placed on the top right: Home, About, Get Informed, Recipes and Subscribe. Those are linked to other sections of the Home page and to tow other pages ('Get Informed' links to get.informed.html and Recipes links to recipes.html).
+    - It clearly shows the user the name/subject of the page as well as what are and where to find the different sections available for navigation.
+    - All its elements are of a dark grey color against white background, providing good contrast.
+    <!-- enter screenshot of nav bar -->
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- ### Header:
 
-A blue button should appear to click: _Make Public_,
+    - It shows an hero-image that sugests a globalistic aproach to the theme of the website (veganism) as oposed to the more commonly associated imagery (of food or animal wellfare) with a semi-transparent sentense on top of it ('Eating tofu is just for some... being educated is for everyone') intended to challenge and incentivise the user to want to learn more.
+    - Its image sets the color scheme (shown below) for all the website pages.
+    - It helps the user to further understand what the site is about and who is it for (refering the targeted audience as all people interested in understanding more about the topic of veganism).
+    <!-- enter screenshot of header and color scheme img -->
 
-Another blue button should appear to click: _Open Browser_.
+- ### Home:
+    - The first in the sequence of links (nav bar) placed on the top righ of all pages.
+    - It links to the top of the home page (index.html).
+    
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- ### About:
+    - The second in the sequence of links (nav bar) placed on the top righ of all pages.
+    - It links to a section of the home page where the user can see the title of the secction, find a video about the topic and a box with a scrool side bar containing the writen info about the topic.
+    <!-- enter screenshot of about section -->
 
-To log into the Heroku toolbelt CLI:
+- ### Get informed:
+    - The third in the sequence of links (nav bar) placed on the top righ of all pages.
+    - It links to a section of the home page where the user can see the title of the secction and find three divisions, each one reffering to a common question the user might have.
+    - Its divisions are catered to organize the information and make it easier to follow.
+    - Each division is composed of:
+        - Question title,
+        - Illustrative image (linked to the page 'information.html' and corresponding section)
+        - Answer to the corresponding question in bullet points 
+        - A 'read more' link (to the page 'information.html'and corresponding section)
+    
+    - The user can see these questions ('Why', 'How', 'What') answered in more detail on the corresponding section of the page 'information.html'
+    <!-- enter screenshot of Get informed section -->
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    ### Information/Why
+    - Explain
+    ### information/How
+    - Explain
+    ### information/What
+    - Explain
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+- ### Recipes:
+    - The fourth in the sequence of links (nav bar) placed on the top righ of all pages.
+    <!-- enter screenshot of recipes section -->
 
-## Release History
+    ### Recipes/Breakfast
+    - Explain
+    ### information/Lunch-dinner
+    - Explain
+    ### information/Desserts-snacks
+    - Explain
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- ### Subscribe:
+    - The fifth in the sequence of links (nav bar) placed on the top righ of all pages.
+    <!-- enter screenshot of subscribe section -->
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- ### Thank you page:
+    - Explain.
+    <!-- enter screenshot of subscribe section -->
+<hr>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ ## Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- The page was tested in different browsers: Chrome, Firefox, Safari.
+- I confirmed the project is responsive by using the devtools device toolbar. It looks and works properly across all standard screen sizes.
+- I confimed that all the writen content of each section is easily readable and understandable.
+- I confirmed that the form works properly (requires entries in every field, requires an email entry in the asigned field and the submit button also works).
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ ### Bugs:
+Solved
+- If any
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Unsolved
+- If any
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ ### Validator Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- HTML
+    - errors
+- CSS
+    - errors
+- Accessibility
+    - tested
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    <!-- enter screenshot of results-->
+<hr>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Deployment
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ The website was deployed to GitHup pages.
+- The steps to deploy it were as folows:
+    - In the GitHub repository I navigated to the 'Settings' tab
+    - On the left collum menu, in the 'Code and automation' section, clicked on the link: 'Pages'
+    - On the 'Build and deployment' area of the page, the 'Source' section drop-down menu must have active the option: 'Deploy from a branch'
+    - Below that, on the 'Branch' section, on the first drop-down menu I selected the option: 'main'. The second drop-down menu must have active the option: '/(root)'
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    The live link can be found here: <a href="https://raffa-g.github.io/project1/">Vegan Life</a> 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<hr>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ ### Content
+ Various bits of code were for taken from:
+ - The Love Running project, maningly:
+    - Cover text
+    - Social media links
+ - The w3schools.com website, maningly:
+    - Scroll bar
 
-------
+### Media
+- Hero image in the header titled 'hero-image': Photo by Oliver Sjöström from Pexels: https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/
+- Video in the 'About' section: 
+- Images in the 'Get informed' section:
+    - Titled 'why': Photo by Ron Lach  from Pexels: https://www.pexels.com/photo/people-cleaning-the-beach-9037592/
+    - Titled 'how': Photo by Sam Lion from Pexels: https://www.pexels.com/photo/crop-asian-woman-with-banana-flower-near-girlfriend-in-bazaar-5709277/
+    - Titled 'what': Photo by fauxels from Pexels: https://www.pexels.com/photo/group-of-people-eating-together-3184195/
 
-## FAQ about the uptime script
+- Images in the 'Recipes' section:
+    - Titled 'breakfast': Photo by Taryn Elliott from Pexels: https://www.pexels.com/photo/red-and-white-round-fruits-on-brown-wooden-bowl-4099237/
+    - Titled 'lunch-dinner':
+    - Titled 'desserts': Photo by Lina Kivaka from Pexels: https://www.pexels.com/photo/close-up-photo-of-cakes-near-glass-window-2773606/
+    
+- Image in the 'Subscribe' section, titled 'e-book': Photo by RF._.studio from Pexels: https://www.pexels.com/photo/high-angle-photo-of-person-reading-an-e-book-3060654/
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
