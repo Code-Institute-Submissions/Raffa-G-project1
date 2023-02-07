@@ -21,11 +21,11 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: grey;
+    color: darkgray;
 }
 
 h3, h4, h5 {
-    color: gray;
+    color: darkgray;
     letter-spacing: 1px;
 }
 
@@ -40,34 +40,40 @@ h3, h4, h5 {
 
 #navbar {
     height: 100px;
+    width: 100%;
 }
 
-#menu {
-    font-family: Aboreto, Arial;
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    top: 50px;
+    right: 30px;
     color: #3a3a3a;
     letter-spacing: 2px;
-    line-height: 100px;
+   
 }
 
-#logo {
-    line-height: 100px;
-}
-
-#menu li {
-    float: right;
-    padding-right: 30px;
-    text-decoration: none;
-    margin-right:;
-    list-style: none;
-}
-
-#menu a {
+nav a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+nav a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .active {
@@ -77,7 +83,7 @@ h3, h4, h5 {
 /* Hero image section */
 
 #hero-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
     position: relative;
 }
@@ -91,11 +97,10 @@ h3, h4, h5 {
 
 #cover-text {
     margin: 0 auto;
-    background-color:;
-    position: absolute;
+    position: relative;
     padding: 20px;
-    margin-block: -320px;
-    margin-left: 170px;
+    margin-block: -350px;
+    margin-left: 150px;
 }
 
 /* Get informed section */

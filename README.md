@@ -134,8 +134,11 @@ Unsolved
  - The Love Running project, maningly:
     - Cover text
     - Social media links
- - The w3schools.com website, maningly:
-    - Scroll bar
+ - The <a href="https://w3schools.com/">W3 Schools</a> website, maningly:
+    - Smooth scroll for the html
+    - Scroll bar for the 'About' section
+- The <a href="https://mycolor.space/">Color Space</a> website, namingly:
+    - Color gradiance for background image in sections 'About' and 'Subscribe'
 
 ### Media
 - Hero image in the header titled 'hero-image': Photo by Oliver Sjöström from Pexels: https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/
