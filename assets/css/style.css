@@ -177,8 +177,7 @@ dt {
 .read-more {
     display: flex;
     justify-content: flex-end;
-    color: #3a3a3a;
-    
+    color: #3a3a3a;    
 }
 
 .read-more a {
@@ -196,17 +195,21 @@ dt {
 .section-color {
     background-image: linear-gradient(to right, #12575a, #317169, #538c76, #79a682, #a3c08e,
      #a6be88, #aabc81, #aeba7b, #889e5f, #638345, #3e682e, #154e18);
-    height: 500px;
+    height: 600px;
 }
 
+.section-color  h1 {
+    color: #3e682e;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    }
+
 .big-rectangle-info-left {
-    border-style:;
-    border-width:;
-    width: 50%;
+    width: auto;
     float: left;
-    padding: 0;
+    padding-top: 10px;
     margin-left: 3%;
-    margin-top: 50px;
 
 }
 
@@ -217,12 +220,14 @@ dt {
     background-color: white;
     border-style: outset;
     border-width: 1px;
-    width: 41%;
-    height: 100%;
+
+    width: 45%;
+    height: 400px;
     float: right;
     padding: 15px;
     margin-right: 3%;
-    margin-top: 50px;
+    margin-top: 10px;
+    
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
