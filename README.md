@@ -138,7 +138,7 @@ Unsolved
     - Smooth scroll for the html
     - Scroll bar for the 'About' section
 - The <a href="https://mycolor.space/">Color Space</a> website, namingly:
-    - Color gradiance for background image in sections 'About' and 'Subscribe'
+    - Color gradiance for background image in the'Subscribe' section.
 
 ### Media
 - Hero image in the header titled 'hero-image': Photo by Oliver Sjöström from Pexels: https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/
