@@ -351,13 +351,27 @@ dt {
 
 /* Footer */
 
-.header-footer-section {
-    background-color: white;
-    width: 100%;
-    height: 80px;
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-#footer {
-    background-color: white;
-    font-size: 80%;
+footer {
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
