@@ -16,8 +16,7 @@ Users of this website will have answered the questions of:
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-<!-- enter screenshot from http://ami.responsivedesign.is/ -->
-<hr>
+ ![Alt text](/assets/readme-images/amiresponsive%20#project1.jpg)
 
 ## Features
  
@@ -28,14 +27,16 @@ Users of this website will have answered the questions of:
     - It has five more navigation links are placed on the top right: Home, About, Get Informed, Recipes and Subscribe. Those are linked to other sections of the Home page and to tow other pages ('Get Informed' links to get.informed.html and Recipes links to recipes.html).
     - It clearly shows the user the name/subject of the page as well as what are and where to find the different sections available for navigation.
     - All its elements are of a dark grey color against white background, providing good contrast.
-    <!-- enter screenshot of nav bar -->
+    
+ ![Alt text](assets/readme-images/01%20Nav-bar%20and%20hero-image.jpg)    
 
 - ### Header:
 
     - It shows an hero-image that sugests a globalistic aproach to the theme of the website (veganism) as oposed to the more commonly associated imagery (of food or animal wellfare) with a semi-transparent sentense on top of it ('Eating tofu is just for some... being educated is for everyone') intended to challenge and incentivise the user to want to learn more.
     - Its image sets the color scheme (shown below) for all the website pages.
     - It helps the user to further understand what the site is about and who is it for (refering the targeted audience as all people interested in understanding more about the topic of veganism).
-    <!-- enter screenshot of header and color scheme img -->
+
+ ![Alt text](assets/readme-images/pallet.jpg)   
 
 - ### Home:
     - The first in the sequence of links (nav bar) placed on the top righ of all pages.
@@ -45,7 +46,8 @@ Users of this website will have answered the questions of:
 - ### About:
     - The second in the sequence of links (nav bar) placed on the top righ of all pages.
     - It links to a section of the home page where the user can see the title of the secction, an image illustrating the initial confusion about the topic and a box with a scrool side bar containing the writen info about the topic.
-    <!-- enter screenshot of about section -->
+    
+ ![Alt text](assets/readme-images/02%20About.jpg)   
 
 - ### Get informed:
     - The third in the sequence of links (nav bar) placed on the top righ of all pages.
@@ -58,67 +60,80 @@ Users of this website will have answered the questions of:
         - A 'read more' link (to the page 'information.html'and corresponding section)
     
     - The user can see these questions ('Why', 'How', 'What') answered in more detail on the corresponding section of the page 'information.html'
-    <!-- enter screenshot of Get informed section -->
+    
+ ![Alt text](assets/readme-images/03%20Get%20informed.jpg)    
 
     ### Information Page
     
-    #### /Why
+    Why
     - The user is redirected to the information page through the link on the home page ('Get informed' section), where the question 'Why' is answered at the top of the page.
     - For reference, the link-image shown on the home page can be seen here, along with two others that illustrate the three pointed reasons why.
 
-    #### /How
+ ![Alt text](assets/readme-images/06%20Get%20informed%20#Why.jpg)
+
+    How
      - The user is redirected to the 'How' section of the information page through the link on the home page ('Get informed' section), where the question 'How' is answered on the midle of the page.
     - For reference, the link-image shown on the home page can be seen here along with a sequenced other.
 
-    #### /What
+ ![Alt text](assets/readme-images/09%20Get%20informed%20#How.jpg)
+
+    What
     - The user is redirected to the 'What' section of the information page through the link on the home page ('Get informed' section), where the question 'What' is answered at the bottom of the page.
-    - For reference, the link-image shown on the home page can be seen here along with...
+    - An image is shown to illustrate and give context to the provided indormation.
+    - The text contains an external link that will open in a new tab.
 
+ ![Alt text](assets/readme-images/10%20Get%20informed%20#What.jpg)
 
-- ### Recipes:
+- ### Get inspired:
     - The fourth in the sequence of links (nav bar) placed on the top righ of all pages.
-    <!-- enter screenshot of recipes section -->
+    - Takes the user to the section where he can click on images to navigate to an inspirational gallery page.
 
-    ### Recipes/Breakfast
-    - Explain
-    ### information/Lunch-dinner
-    - Explain
-    ### information/Desserts-snacks
-    - Explain
+ ![Alt text](assets/readme-images/04%20Get%20inspired.jpg)   
+    
+    - The gallery is divided in the following sections:
+
+    Breakfast
+ ![Alt text](assets/readme-images/11%20Get%20inspired%20%20#Breakfast.jpg)
+    Lunch & dinner
+ ![Alt text](assets/readme-images/12%20Get%20inspired%20%20#Lunch-Dinner.jpg)    
+    Desserts & snacks
+![Alt text](assets/readme-images/13%20Get%20inspired%20%20#Desserts-Snacks.jpg)    
 
 - ### Subscribe:
     - The fifth in the sequence of links (nav bar) placed on the top righ of all pages.
-    <!-- enter screenshot of subscribe section -->
+    - Contains an illustrative image on the left and a form on the right.
+    - The form requires the input of a name and an email for submition.
+    - Once submited, the user is redirected to a Thank you page.
+
+ ![Alt text](assets/readme-images/05%20Subscribe.jpg)
 
 - ### Thank you page:
-    - Explain.
-    <!-- enter screenshot of subscribe section -->
+    - From the thank you page, the user can continue the navigation in the website or throught the social media links on new tabs.
 <hr>
 
  ## Testing
 
 - The page was tested in different browsers: Chrome, Firefox, Safari.
-- I confirmed the project is responsive by using the devtools device toolbar. It looks and works properly across all standard screen sizes.
+- I confirmed the project is responsive by using the devtools device toolbar. It looks and works properly across standard screen sizes from 1600px wide desktops to 768px wide tablets.
 - I confimed that all the writen content of each section is easily readable and understandable.
 - I confirmed that the form works properly (requires entries in every field, requires an email entry in the asigned field and the submit button also works).
 
  ### Bugs:
 Solved
-- If any
+- All the CSS styling was and links were compromised when trying to run the site on regular browsers.
+- The problem was the need to use relative paths.
 
 Unsolved
-- If any
+- The media queries for small screen sizes did not work as expected.
 
  ### Validator Testing
 
 - HTML
-    - errors
+    - 21 errors
 - CSS
-    - errors
-- Accessibility
-    - tested
+ ![Alt text](assets/readme-images/w3c%20css%20validator.jpg)   
 
-    <!-- enter screenshot of results-->
+   
 <hr>
 
 ## Deployment
