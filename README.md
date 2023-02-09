@@ -129,7 +129,7 @@ Unsolved
  ### Validator Testing
 
 - HTML
-    
+ ![Alt text](assets/readme-images/w3%20html%20validator.jpg)   
 - CSS
  ![Alt text](assets/readme-images/w3c%20css%20validator.jpg)   
  ![Alt text](assets/readme-images/LightHouse%20Metrics.jpg)
