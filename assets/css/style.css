@@ -454,6 +454,11 @@ hr.solid {
 
 /* inspitation page */
 
+.insp-title {
+    height: 150px;
+    margin-top: 50px;
+}
+
 #breakfast {
     clear: both;
     line-height: 0;
@@ -518,4 +523,100 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3e682e;
+}
+
+/* media queries */
+/* for larger to medium screen sizes from 1000px wide and down */
+
+@media screen and (max-width: 1000px) {
+#logo {
+    font-size: 200%;
+}
+li {
+    padding-left: 10px;
+}
+#cover-text, #cover-text h2 {
+    font-size: 150%;
+    letter-spacing: 4px;
+}
+#cover-text {
+    margin-left: 100px;
+    margin-block: -310px;
+}
+element.style {
+    height: 400px;
+}
+#hero-image {
+    height: 530px;
+}
+.big-rectangle-info-left {
+    width: 100px;
+}
+.section-smaller {
+    margin-bottom: 20px;
+}
+.section h1 {
+    padding: 20px 0 30px;
+}
+.section-small {
+    height: 600px;
+}
+.rec-text-center {
+    padding-bottom: 10px;
+    font-size: medium;
+}
+#button {
+    margin-bottom: 18px;
+}
+#breakfast {
+    column-count: 3;
+}   
+#lunch-dinner {
+    column-count: 3;
+} 
+#desserts-snacks {
+    column-count: 3;
+} 
+}
+
+/* for small screen sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+
+h1, h2 {
+    font-size: 100%;
+    letter-spacing: 1px;
+        
+}
+
+img {
+    size: 30%;
+}
+#logo {
+    font-size: 150%;
+    padding-left: 10px;
+    line-height: 80px;
+}
+nav {
+    display: contents;
+}
+#navbar {
+    height: 100px;
+    width: 600px;
+    margin: 0;
+    
+}
+ul {
+    display: block;
+}
+li {
+    font-size: small;
+    padding-left: 5px;
+}
+#hero-image {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
 }
