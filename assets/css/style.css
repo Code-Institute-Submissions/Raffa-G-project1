@@ -132,6 +132,7 @@ li {
     color: darkgray;
     display: flex;
     justify-content: center;
+    letter-spacing: 2px;
 }
 
 dt {
@@ -345,6 +346,9 @@ dt {
 #container5 {
     height: 500px;
 }
+.section-info {
+    height: 1220px;
+}
 
 .section-info #why #how #what {
     margin-bottom: 50px;
@@ -354,7 +358,7 @@ dt {
     color: #3e682e;
     display: flex;
     justify-content: center;
-    padding: 50px 0 30px;
+    padding: 10px 0 30px;
 }
 
 .section-color-long{
@@ -371,6 +375,7 @@ dt {
     float: left;
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: white;    
 }
 
@@ -388,11 +393,17 @@ dt {
     border-width: 1px;
     width: 42%;
     height: auto;
-    padding: 15px;    
+    padding: 15px 15px 40px;    
     float: right;
     margin-right: 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: white;    
+}
+
+hr.solid {
+    border-top: 3px solid #a3c08e;
+    width: 100%;
 }
 
 /* Footer */
@@ -427,5 +438,6 @@ footer {
 
 /* Thank you page */
 #thank-you {
-    height: 400px;
+    height: 200px;
+    padding: 100px;
 }
