@@ -406,43 +406,6 @@ hr.solid {
     width: 100%;
 }
 
-/* Footer */
-
-#footer {   
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #a6be88;
-   
-}
-
-footer {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    padding-top: 10px;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3e682e;
-}
-
-/* Thank you page */
-
-#thank-you {
-    height: 200px;
-    padding: 100px;
-}
-
 /* previous and next buttons */
 
 .previous {
@@ -487,4 +450,72 @@ footer {
 .next a:hover {
     background-color: #707070;
     color: white;
+}
+
+/* inspitation page */
+
+#breakfast {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;    
+}
+#lunch-dinner {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;    
+}
+#desserts-snacks {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;    
+}
+
+#breakfast > img {
+    width: 100%;
+}
+#lunch-dinner > img {
+    width: 100%;
+}
+#desserts-snacks > img {
+    width: 100%;
+}
+
+/* Thank you page */
+
+#thank-you {
+    height: 200px;
+    padding: 100px;
+}
+
+/* Footer */
+
+#footer {   
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #a6be88;
+   
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    padding-top: 10px;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3e682e;
 }
