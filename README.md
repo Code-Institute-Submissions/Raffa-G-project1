@@ -44,7 +44,7 @@ Users of this website will have answered the questions of:
 
 - ### About:
     - The second in the sequence of links (nav bar) placed on the top righ of all pages.
-    - It links to a section of the home page where the user can see the title of the secction, find a video about the topic and a box with a scrool side bar containing the writen info about the topic.
+    - It links to a section of the home page where the user can see the title of the secction, an image illustrating the initial confusion about the topic and a box with a scrool side bar containing the writen info about the topic.
     <!-- enter screenshot of about section -->
 
 - ### Get informed:
@@ -60,12 +60,19 @@ Users of this website will have answered the questions of:
     - The user can see these questions ('Why', 'How', 'What') answered in more detail on the corresponding section of the page 'information.html'
     <!-- enter screenshot of Get informed section -->
 
-    ### Information/Why
-    - Explain
-    ### information/How
-    - Explain
-    ### information/What
-    - Explain
+    ### Information Page
+    
+    #### /Why
+    - The user is redirected to the information page through the link on the home page ('Get informed' section), where the question 'Why' is answered at the top of the page.
+    - For reference, the link-image shown on the home page can be seen here, along with two others that illustrate the three pointed reasons why.
+
+    #### /How
+     - The user is redirected to the 'How' section of the information page through the link on the home page ('Get informed' section), where the question 'How' is answered on the midle of the page.
+    - For reference, the link-image shown on the home page can be seen here along with a sequenced other.
+
+    #### /What
+    - The user is redirected to the 'What' section of the information page through the link on the home page ('Get informed' section), where the question 'What' is answered at the bottom of the page.
+    - For reference, the link-image shown on the home page can be seen here along with...
 
 
 - ### Recipes:
@@ -139,6 +146,8 @@ Unsolved
     - Scroll bar for the 'About' section
 - The <a href="https://mycolor.space/">Color Space</a> website, namingly:
     - Color gradiance for background image in the'Subscribe' section.
+Sections of writen content taken from:
+- https://www.vegansociety.com/
 
 ### Media
 - Hero image in the header titled 'hero-image': Photo by Oliver Sjöström from Pexels: https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/

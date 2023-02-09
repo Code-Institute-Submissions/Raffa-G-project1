@@ -17,6 +17,10 @@ body {
 
 /* headings and logo */
 
+#header {
+    background-color: #a6be88;
+}
+
 h1, h2 {
     font-family: Oswald, sans-serif;
     font-size: 190%;
@@ -35,6 +39,7 @@ h3, h4, h5 {
     font-size: 250%;
     padding-left: 30px;
     line-height: 100px;
+    color: #3a3a3a;
 }
 
 /* navigation links */
@@ -42,6 +47,7 @@ h3, h4, h5 {
 #navbar {
     height: 100px;
     width: 100%;
+    background-color: #a3c08e;
 }
 
 nav {
@@ -339,9 +345,6 @@ dt {
 #container5 {
     height: 500px;
 }
-#container6 {
-    height: 600px;
-}
 
 .section-info #why #how #what {
     margin-bottom: 50px;
@@ -396,13 +399,15 @@ dt {
 
 #footer {   
     margin-top: 50px;
+    padding: 20px;
+    background-color: #a6be88;
+   
 }
 
 footer {
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
-    align-items: baseline stretch;
 }
 
 .social-networks {
@@ -410,7 +415,7 @@ footer {
 }
 
 .social-networks > li {
-    display: inline;
+    padding-top: 10px;
 }
 
 .social-networks i {
@@ -418,4 +423,9 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3e682e;
+}
+
+/* Thank you page */
+#thank-you {
+    height: 400px;
 }
