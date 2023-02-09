@@ -331,11 +331,27 @@ dt {
     height: 700px;
 }
 #container3 {
+    height: 600px;
+}
+#container4 {
+    height: 700px;
+}
+#container5 {
     height: 500px;
 }
+#container6 {
+    height: 600px;
+}
 
-.section, #why, #how, #what {
+.section-info #why #how #what {
     margin-bottom: 50px;
+}
+
+.section-info h1 {
+    color: #3e682e;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 30px;
 }
 
 .section-color-long{
