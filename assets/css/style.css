@@ -583,40 +583,4 @@ element.style {
 
 @media screen and (max-width: 800px) {
 
-h1, h2 {
-    font-size: 100%;
-    letter-spacing: 1px;
-        
-}
-
-img {
-    size: 30%;
-}
-#logo {
-    font-size: 150%;
-    padding-left: 10px;
-    line-height: 80px;
-}
-nav {
-    display: contents;
-}
-#navbar {
-    height: 100px;
-    width: 600px;
-    margin: 0;
-    
-}
-ul {
-    display: block;
-}
-li {
-    font-size: small;
-    padding-left: 5px;
-}
-#hero-image {
-    height: auto;
-    width: 100%;
-    position: relative;
-}
-
 }
