@@ -252,7 +252,7 @@ dt {
     text-align: center;
     font-size: large;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
     color: #707070;
 }
 
@@ -294,23 +294,25 @@ dt {
 #big-rectangle-sub h1 {
     font-size: 190%;
     color: #3e682e;
+    padding-bottom: 0;
     
 }
 
 #big-rectangle-sub p {
     font-size: large;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     color: #707070;
 }
 
 #button {   
-    border-style: outset;
-    padding: 0px 95px;
+    color: #154e18;
+    background-color: #a3c08e;
+    padding: 0px 105px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     margin-top: 0px;
@@ -320,13 +322,13 @@ dt {
 #name-field {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     margin: 15px;
-
+    font-size: 16px;
 }
 
 #email-field {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     margin: 15px;
-
+    font-size: 16px;
 }
 
 /* information page */
@@ -358,7 +360,7 @@ dt {
     color: #3e682e;
     display: flex;
     justify-content: center;
-    padding: 10px 0 30px;
+    padding: 10px 0 0;
 }
 
 .section-color-long{
@@ -437,7 +439,54 @@ footer {
 }
 
 /* Thank you page */
+
 #thank-you {
     height: 200px;
     padding: 100px;
+}
+
+/* previous and next buttons */
+
+.previous {
+    background-color: #538c76;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 15px;
+    margin-left: 30px;
+}
+  
+.next {
+    background-color: #538c76;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.previous a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 24px;
+}
+  
+.previous a:hover {
+    background-color: #707070;
+    color: white;
+}
+
+.next a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 24px;
+}
+  
+.next a:hover {
+    background-color: #707070;
+    color: white;
 }
